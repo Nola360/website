@@ -1,0 +1,85 @@
+@import 'style.css';
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.form_container {
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+  background: rgb(255, 255, 255);
+  padding: 30px;
+  width: 60%;
+  margin: 70px auto;
+}
+
+
+.form_text {
+  background-color: #fff;
+  /* padding: 30px; */
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.form_text p {
+  margin-bottom: 10px;
+}
+
+.form_text p:nth-child(2) {
+  color: silver;
+}
+
+.form_container h1 {
+  font-family: "Poppins";
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.input_container {
+  display: flex;
+}
+
+input {
+  width: 100%;
+  padding: 20px;
+  background: rgb(243, 243, 243);
+  /* outline: #006fff; */
+  border: none;
+  margin-top: 10px;
+}
+
+
+.email {
+  margin-left: 10px;
+}
+
+.phone,
+.message {
+  /* display: block; */
+  width: 100%;
+}
+
+.message {
+  max-height: 100%;
+  max-width: 100%;
+  padding: 20px;
+  background: rgb(243, 243, 243);
+  border: none;
+  margin-top: 10px;
+  /* outline: #006fff; */
+  line-height: 24px;
+  resize: none;
+}
+
+input[type='submit'] {
+  background-color: #006fff;
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+}

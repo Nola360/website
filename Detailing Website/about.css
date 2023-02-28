@@ -1,0 +1,55 @@
+#about_us {
+  background-image: url("img/odometer1.webp");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: saturate(0);
+  height: 500px;
+}
+
+#about_us {
+  /* width: 100%; */
+  /* padding: 40px; */
+
+  /* height: 450px; */
+}
+
+.review_content {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  color: #fff;
+  ;
+}
+
+.review_content .review_text {
+  text-align: center;
+  margin-top: 2%;
+}
+
+.review_content .review_text h1 {
+  margin-top: 30px;
+}
+
+.review_content .review_text h3 {
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+
+}
+
+.review_content .featured_reviews {
+  width: 90%;
+  margin-top: 30px;
+  display: flex;
+  gap: 50px;
+}
+
+.review_content .featured_reviews p {
+  /* display: inline; */
+  /* width: 300px; */
+  line-height: 30px;
+}
+
+.about_us h1 {}

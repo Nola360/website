@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#service_section {
+  /* padding: 5px; */
+}
+
+#service_section .content {
+  width: 100%;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 880px;
+}
+
+#service_section .content .text_container {
+  text-align: center;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+}
+
+.text_container h2 {
+  font-family: "Poppins";
+  color: #006fff;
+  letter-spacing: 5px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: 40px;
+
+}
+
+.text_container h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 325px;
+  font-family: "Poppins";
+  font-size: 50px;
+  text-align: center;
+  border-bottom: 5px solid #006fff;
+  margin: 20px 0px 40px 0;
+}
+
+#service_section .content .service_container {
+  margin-top: 20px;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  overflow: hidden;
+  /* background-color: aqua; */
+}
+
+#service_section .content .service_container .service {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  line-height: 30px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  width: 100%;
+  color: #fff;
+  transition: all .3s ease;
+  height: inherit;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  padding: 1.5px;
+}
+
+.service_container .service a {
+  width: 100%;
+  height: 100%;
+}
+
+#service_section .content .service_container .service p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.service_container .service img {
+  width: 100%;
+  height: 100%;
+  /* transition: transform .3s ease .3s, filter .2s ease-in-out .6s; */
+  object-fit: cover;
+  filter: brightness(50%);
+}
+
+.service_container .service:hover img {
+  /* transform: scale(1.3);
+  filter: brightness(100%); */
+  /* transition-delay: 0s; */
+}
